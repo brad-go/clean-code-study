@@ -1,8 +1,29 @@
-# 2장 의미있는 이름 (Variables)
-
-생성일: 2022년 3월 16일 오후 9:06
+# 2장 의미 있는 이름 (Variables)
 
 소프트웨어의 이름은 어디나 쓰인다. 우리는 변수에도 이름을 붙이고, 함수에도 이름을 붙이고, 인수와 클래스와 패키지에도 이름을 붙인다. 이름은 어디에나 쓰이고 많이 사용된다. 그러므로 이름을 잘 지으면 여러모로 편하다. 이 장에서는 이름을 잘 짓는 간단한 규칙을 몇 가지 소개한다.
+
+## 목차
+
+1. [의도를 분명히 밝혀라](#의도를-분명히-밝혀라)
+2. [그릇된 정보를 피하라](#그릇된-정보를-피하라)
+3. [의미 있게 구분하라](#의미-있게-구분하라)
+4. [발음하기 쉬운 이름을 사용하라](#발음하기-쉬운-이름을-사용하라)
+5. [검색하기 쉬운 이름을 사용하라](#검색하기-쉬운-이름을-사용하라)
+6. [인코딩을 피하라](#인코딩을-피하라)
+7. [자신의 기억력을 자랑하지 마라](#자신의-기억력을-자랑하지-마라)
+8. [클래스 이름](#클래스-이름)
+9. [메서드 이름](#메서드-이름)
+10. [기발한 이름은 피하라](#기발한-이름은-피하라)
+11. [한 개념에 한 단어를 사용하라](#한-개념에-한-단어를-사용하라)
+12. [말장난을 하지 마라](#말장난을-하지-마라)
+13. [해법 영역에서 가져온 이름을 사용하라](#해법-영역에서-가져온-이름을-사용하라)
+14. [문제 영역에서 가져온 이름을 사용하라](#문제-영역에서-가져온-이름을-사용하라)
+15. [의미 있는 맥락을 추가하라](#의미-있는-맥락을-추가하라)
+16. [불필요한 맥락을 없애라](#불필요한-맥락을-없애라)
+17. [단락 평가 또는 조건 대신 기본 인수를 사용하라](#단락-평가-또는-조건-대신-기본-인수를-사용하라)
+18. [Enum을 사용하여 사용하여 의도를 문서화하라](#enum을-사용하여-의도를-문서화하라)
+
+<br />
 
 ## 의도를 분명히 밝혀라
 
@@ -27,6 +48,9 @@ const yyyymmdstr: Date = moment().format("YYYY/MM/DD");
 const currentDate: Date = moment().format("YYYY/MM/DD");
 ```
 
+[:arrow_up: Back to the top](#목차)
+<br />
+
 ## 그릇된 정보를 피하라
 
 - 프로그래머는 코드에 그릇된 단서를 남겨서는 안 된다. **그릇된 단서는 코드의 의미를 흐린다.**
@@ -47,6 +71,9 @@ function getUserData(): User;
 ```tsx
 function getUser(): User;
 ```
+
+[:arrow_up: Back to the top](#목차)
+<br />
 
 ## 의미 있게 구분하라
 
@@ -74,6 +101,9 @@ const copyChars = (source: string[], destination: string[]): void => {
 };
 ```
 
+[:arrow_up: Back to the top](#목차)
+<br />
+
 ## 발음하기 쉬운 이름을 사용하라
 
 - 발음하기 어려운 이름은 토론하기도 어렵다.
@@ -99,6 +129,9 @@ interface CustomerType {
 }
 ```
 
+[:arrow_up: Back to the top](#목차)
+<br />
+
 ## 검색하기 쉬운 이름을 사용하라
 
 - 문자 하나를 사용하는 이름과 상수는 텍스트 코드에서 쉽게 눈에 띄지 않는다.
@@ -122,6 +155,9 @@ const MILLISECONDS_PER_DAY: number = 60 * 60 * 24 * 10000; // 86400000
 
 setTimeout(restart, MILLISECONDS_PER_DAY);
 ```
+
+[:arrow_up: Back to the top](#목차)
+<br />
 
 ## 인코딩을 피하라
 
@@ -157,6 +193,9 @@ class Part {
 }
 ```
 
+[:arrow_up: Back to the top](#목차)
+<br />
+
 ## 자신의 기억력을 자랑하지 마라
 
 - 독자가 코드를 읽으면서 변수 이름을 자신이 아는 이름으로 변환해야 한다면 그 변수 이름은 바람직하지 못하다.
@@ -178,6 +217,9 @@ const user = getUser();
 const subscription = getSubscription();
 const transaction = charge(user, subscription);
 ```
+
+[:arrow_up: Back to the top](#목차)
+<br />
 
 ## 클래스 이름
 
@@ -201,6 +243,9 @@ const Customer = {
   name: "Brad",
 };
 ```
+
+[:arrow_up: Back to the top](#목차)
+<br />
 
 ## 메서드 이름
 
@@ -241,10 +286,16 @@ class Diary {
 const diary = Diary.createDiary();
 ```
 
+[:arrow_up: Back to the top](#목차)
+<br />
+
 ## 기발한 이름은 피하라
 
 - 재미난 이름보다 명료한 이름을 선택하라
 - 의도를 분명하고 솔직하게 표현하라
+
+[:arrow_up: Back to the top](#목차)
+<br />
 
 ## 한 개념에 한 단어를 사용하라
 
@@ -254,12 +305,18 @@ const diary = Diary.createDiary();
   - 그래야 주석을 뒤져보지 않고도 프로그래머가 올바른 메서드를 선택한다.
 - **일관성 있는 어휘**를 사용한다.
 
-## 말장난을 하지마라
+[:arrow_up: Back to the top](#목차)
+<br />
+
+## 말장난을 하지 마라
 
 - 한 단어를 두 가지 목적으로 사용하지 마라.
   - 다른 개념에 같은 단어를 사용한다면 그것은 말장난에 불과하다.
 - 맥락이 다른 것을 비슷하다는 이유로 같은 이름으로 짓지 않는다.
 - 집중적인 탐구가 필요한 코드가 아니라 대충 훑어봐도 이해할 코드를 작성한다.
+
+[:arrow_up: Back to the top](#목차)
+<br />
 
 ## 해법 영역에서 가져온 이름을 사용하라
 
@@ -267,10 +324,16 @@ const diary = Diary.createDiary();
 - 모든 이름을 문제 영역에서 가져오는 방법은 현명하지 못하다.
 - **기술 개념에는 기술 이름**이 가장 적합한 선택이다.
 
+[:arrow_up: Back to the top](#목차)
+<br />
+
 ## 문제 영역에서 가져온 이름을 사용하라
 
 - 적절한 프로그래밍 용어가 없다면 문제 영역에서 이름을 가져온다.
 - 문제 영역 개념과 관련이 깊은 코드라면 문제 영역에서 이름을 가져와야 한다.
+
+[:arrow_up: Back to the top](#목차)
+<br />
 
 ## 의미 있는 맥락을 추가하라
 
@@ -357,6 +420,9 @@ const message = new GuessStatisticsMessage();
 console.log(message.make("Brad", 4));
 ```
 
+[:arrow_up: Back to the top](#목차)
+<br />
+
 ## 불필요한 맥락을 없애라
 
 - 일반적으로 짧은 이름이 긴 이름보다 좋다. (의미가 분명한 경우에 한해)
@@ -390,6 +456,9 @@ function print(car: Car): void {
 }
 ```
 
+[:arrow_up: Back to the top](#목차)
+<br />
+
 ## 단락 평가 또는 조건 대신 기본 인수를 사용하라
 
 - 기본 인수는 종종 단락 평가보다 깔끔하다.
@@ -412,6 +481,9 @@ function loadPages(count: number = 10) {
   // ...
 }
 ```
+
+[:arrow_up: Back to the top](#목차)
+<br />
 
 ## Enum을 사용하여 의도를 문서화하라
 
@@ -463,6 +535,9 @@ class Projector {
   }
 }
 ```
+
+[:arrow_up: Back to the top](#목차)
+<br />
 
 ## 퀴즈
 
@@ -525,8 +600,6 @@ console.log(Customer);
 ```
 
 </div></details>
-    
-
 
 ### 2. 의도를 분명히 밝혀라
 
@@ -539,3 +612,7 @@ console.log(Customer);
 - 사용 방법
 
 </div></details>
+
+<br />
+
+[:arrow_up: Back to the top](#목차)
