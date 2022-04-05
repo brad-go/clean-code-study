@@ -8,6 +8,7 @@
 1. [CleanCode](./docs/01_CleanCode/)
 2. [Variables](./docs/02_Variables/)
 3. [Functions](./docs/03_Functions/)
+4. [Comments](./docs/04_Comments/)
 
 ## Member
 
