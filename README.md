@@ -9,6 +9,7 @@
 2. [Variables](./docs/02_Variables/)
 3. [Functions](./docs/03_Functions/)
 4. [Comments](./docs/04_Comments/)
+5. [Formatting](./docs/05_Formatting/)
 
 ## Member
 
