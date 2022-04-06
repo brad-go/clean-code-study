@@ -2,6 +2,8 @@
 
 ## :pushpin: 이슈 리스트
 
+- [함수의 선언 순서](https://github.com/brad-go/clean-code-study/issues/24)
+
 ## :clipboard: 정리
 
 ### :link: 문서 링크
@@ -19,7 +21,5 @@
 ## :pray: 회고
 
 #### :bread: brad
-
-
 
 #### :sunglasses: yun
