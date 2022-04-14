@@ -10,6 +10,7 @@
 3. [Functions](./docs/03_Functions/)
 4. [Comments](./docs/04_Comments/)
 5. [Formatting](./docs/05_Formatting/)
+6. [Object and DataStructure](./docs/06_Object%20vs%20DataStructure/)
 
 ## Member
 
