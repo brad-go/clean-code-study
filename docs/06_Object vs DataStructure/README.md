@@ -6,8 +6,8 @@
 
 ### :link: 문서 링크
 
-- [함수 (자바)](./heewhy_java.md)
-- [함수 (자바스크립트)](./brad_javascript.md)
+- [객체와 자료구조 (자바)](./heewhy_java.md)
+- [객체와 자료구조 (자바스크립트)](./brad_javascript.md)
 
 ### :white_check_mark: 주요 내용
 
