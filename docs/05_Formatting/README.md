@@ -8,8 +8,8 @@
 
 ### :link: 문서 링크
 
-- [함수 (자바)](./heewhy_java.md)
-- [함수 (자바스크립트)](./brad_javascript.md)
+- [형식 맞추기 (자바)](./heewhy_java.md)
+- [형식 맞추기 (자바스크립트)](./brad_javascript.md)
 
 ### :white_check_mark: 주요 내용
 

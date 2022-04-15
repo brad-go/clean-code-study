@@ -6,8 +6,8 @@
 
 ### :link: 문서 링크
 
-- [함수 (자바)](./heewhy_java.md)
-- [함수 (자바스크립트)](./brad_javascript.md)
+- [주석 (자바)](./heewhy_java.md)
+- [주석 (자바스크립트)](./brad_javascript.md)
 
 ### :white_check_mark: 주요 내용
 
