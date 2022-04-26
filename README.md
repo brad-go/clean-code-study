@@ -12,6 +12,7 @@
 5. [Formatting](./docs/05_Formatting/)
 6. [Object and DataStructure](./docs/06_Object%20vs%20DataStructure/)
 7. [Error Handling](./docs/07_ErrorHandling/)
+8. [Boundary](./docs/08_Boundary/)
 
 ## Member
 
