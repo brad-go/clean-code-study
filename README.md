@@ -14,6 +14,7 @@
 7. [Error Handling](./docs/07_ErrorHandling/)
 8. [Boundary](./docs/08_Boundary/)
 9. [Testing](./docs/09_Testing/)
+10. [Classes](./docs/10_Classes/)
 
 ## Member
 
