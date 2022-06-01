@@ -4,6 +4,11 @@
 
 ## :books: 참고
 
+- [AOSD, 관점지향 소프트웨어 개발](http://aosd.net)
+- [DSL, 도메인 특화 프로그래밍 언어](http://en.wikipedia.org/wiki/Domain-specific_programming_language)
+- [Fowler, 제어 컨테이너 역전과 의존성 주입 패턴](http://martinfowler.com/articles/injection.html)
+- [Spring, Spring 프레임워크](http://www.springsource.org/)
+
 ## :clipboard: 정리
 
 ### :link: 문서 링크
@@ -12,6 +17,10 @@
 - [시스템 (자바)](./heewhy_java.md)
 
 ### :white_check_mark: 주요 내용
+
+시스템은 역시 깨끗해야 한다. 도메인 논리가 흐려지면 제품 품질이 떨어진다. 버그가 숨어들기 쉬워지고, 스토리를 구현하기 어려워지기 때문이다. 기민성이 떨어지면
+생산성이 낮아져 TDD가 제공하는 장점이 사라진다.
+모든 추상화 단계에서 의도는 명확히 표현해야 한다.
 
 ## :pray: 회고
 
