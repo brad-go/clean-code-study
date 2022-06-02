@@ -6,6 +6,13 @@
 
 ## :clipboard: 정리
 
+### :link: 문서 링크
+
+- [창발성 (자바스크립트)](./brad_javascript.md)
+- [창발성 (자바)](./heewhy_java.md)
+
+### :white_check_mark: 주요 내용
+
 ### 창발성
 
 - 자기 조직화 현상
@@ -17,13 +24,6 @@
 2. 중복을 없앤다.
 3. 프로그래머 의도를 표현한다.
 4. 클래스와 메서드 수를 최소로 줄인다.
-
-### :link: 문서 링크
-
-- [시스템 (자바스크립트)](./brad_javascript.md)
-- [시스템 (자바)](./heewhy_java.md)
-
-### :white_check_mark: 주요 내용
 
 ## :pray: 회고
 
