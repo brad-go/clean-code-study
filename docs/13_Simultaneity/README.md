@@ -8,8 +8,8 @@
 
 ### :link: 문서 링크
 
-- [시스템 (자바스크립트)](./brad_javascript.md)
-- [시스템 (자바)](./heewhy_java.md)
+- [동시성 (자바스크립트)](./brad_javascript.md)
+- [동시성 (자바)](./heewhy_java.md)
 
 ### :white_check_mark: 주요 내용
 
