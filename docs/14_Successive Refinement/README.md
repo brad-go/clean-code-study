@@ -4,6 +4,11 @@
 
 ## :books: 참고
 
+- [진짜 개발은 리팩토링부터 시작된다](https://itandhumanities.tistory.com/11)
+- [언제, 어디에 리팩토링을 해야할까 (When, Where)](https://taes-k.github.io/2-where-when-refactoring.html)
+- [6-11. 단계 쪼개기](https://yujeongjeon.github.io/Chapter%2006%20-%20%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8%20%EB%A6%AC%ED%8C%A9%ED%84%B0%EB%A7%81/pages/6-11.html)
+- [[리팩터링 2판] 3장 코드에서 나는 악취](https://slog2.tistory.com/31?category=1006099)
+
 ## :clipboard: 정리
 
 ### :link: 문서 링크
